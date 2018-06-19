@@ -7,8 +7,8 @@ function findMatching(arr, name){
 
 function fuzzyMatch(arr, letters){
   return arr.filter(function (fletters) {
-    console.log(fletters.slice(0, letters.length).toUpperCase())
-    return fletters.slice(0, letters.length).toUpperCase === letters.toUpperCase()
+    console.log(fletters.slice(0, letters.length))
+    return fletters.slice(0, letters.length) === letters
   });
 }
 
