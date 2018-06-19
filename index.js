@@ -11,3 +11,8 @@ function fuzzyMatch(arr, letters){
     return fletters.toUpperCase = letters.toUpperCase()
   });
 }
+
+
+function matchName() {
+  
+}
