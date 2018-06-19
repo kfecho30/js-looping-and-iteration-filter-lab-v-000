@@ -12,6 +12,6 @@ function fuzzyMatch(arr, letters){
 }
 
 
-function matchName() {
+function matchName(arr, name) {
 
 }
