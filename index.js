@@ -5,6 +5,9 @@ function findMatching(arr, name){
   });
 }
 
-function fuzzyMatch(){
-  
+function fuzzyMatch(arr, letters){
+  return arr.filter(function(fletters){
+    fletters.length = letters.length
+    return fletters.toUpperCase = letters.toUpperCase()
+  });
 }
