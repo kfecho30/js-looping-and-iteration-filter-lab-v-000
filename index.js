@@ -7,12 +7,11 @@ function findMatching(arr, name){
 
 function fuzzyMatch(arr, letters){
   return arr.filter(function(fletters){
-    let f = fletters.length = letters.length
-    return f.toUpperCase = letters.toUpperCase()
+    return fletters.slice(0, letters.length).toUpperCase = letters.toUpperCase()
   });
 }
 
 
 function matchName() {
-  
+
 }
