@@ -13,5 +13,7 @@ function fuzzyMatch(arr, letters){
 
 
 function matchName(arr, name) {
-
+  return arr.filter(function (element) {
+    return element.name == name
+  });
 }
